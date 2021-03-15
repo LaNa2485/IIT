@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="242.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="53.0" prefWidth="473.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="20.0" layoutY="14.0" text="Login Details" textFill="#b0b0b0">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #b0b0b0;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="50.0" layoutY="36.0" text="Username              :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="70.0" text="Password               :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="105.0" text="Confirm Password :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="183.0" layoutY="33.0" prefHeight="25.0" prefWidth="215.0" promptText="Example : John123" />
+            <PasswordField layoutX="183.0" layoutY="67.0" prefHeight="25.0" prefWidth="214.0" promptText="Be sure to use a strong password" />
+            <PasswordField layoutX="183.0" layoutY="102.0" prefHeight="25.0" prefWidth="214.0" promptText="Confirm Password" />
+            <Button layoutX="310.0" layoutY="143.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="Clear" textFill="#b0b0b0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="393.0" layoutY="143.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="66.0" style="-fx-background-color: #000000;" text="Submit" textFill="#b0b0b0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="225.0" layoutY="143.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="66.0" style="-fx-background-color: #000000;" text="Back" textFill="#b0b0b0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
