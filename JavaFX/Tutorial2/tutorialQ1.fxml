@@ -11,12 +11,12 @@
    <center>
       <AnchorPane prefHeight="191.0" prefWidth="345.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="127.0" layoutY="108.0" mnemonicParsing="false" onAction="#printHelloWorld" text="Click Me!">
+            <Button layoutX="127.0" layoutY="108.0" mnemonicParsing="false" onAction="#printHelloName" text="Click Me!">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Button>
-            <Label fx:id="txtHelloWorld" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="75.0" prefHeight="20.0" prefWidth="320.0" textAlignment="CENTER" textFill="#b0b0b0">
+            <Label fx:id="lblHelloName" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="75.0" prefHeight="20.0" prefWidth="320.0" textAlignment="CENTER" textFill="#b0b0b0">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -26,7 +26,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <TextField fx:id="getName" layoutX="128.0" layoutY="37.0" onAction="#printHelloWorld" prefHeight="25.0" prefWidth="190.0" />
+            <TextField fx:id="getName" layoutX="128.0" layoutY="37.0" onAction="#printHelloName" prefHeight="25.0" prefWidth="190.0" />
             <Button layoutX="139.0" layoutY="144.0" mnemonicParsing="false" onAction="#clearAllText" text="Clear">
                <font>
                   <Font name="System Bold" size="13.0" />
